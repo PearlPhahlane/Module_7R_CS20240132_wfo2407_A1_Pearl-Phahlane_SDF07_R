@@ -356,3 +356,27 @@ header {
     padding-left: 1em;
     padding-right: calc(200px + 4em)
 }
+
+.about-me_img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+}
+
+/*My work*/
+
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+}
+
+.portfolio__item {
+    background: var(--clr-accent);
+    overflow: hidden;
+}

@@ -35,3 +35,13 @@
         --fs-body: 1.125rem;
     }
 }
+
+/*General styles*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+}

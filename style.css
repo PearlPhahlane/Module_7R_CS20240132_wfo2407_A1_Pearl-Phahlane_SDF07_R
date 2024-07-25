@@ -111,3 +111,15 @@ h3 {font-size: var(--fs-h3);}
     font-size: var(--fs-h3);
 }
 
+.section__subtitle--intro, .section__subtitle--about {
+    background: var(--clr-accent);
+    padding: .25em 1em;
+    font-family: var(--ff-seconday);
+    margin-bottom: 1em;
+}
+
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2em
+}

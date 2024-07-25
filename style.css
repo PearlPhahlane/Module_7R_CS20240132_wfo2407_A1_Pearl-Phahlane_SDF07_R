@@ -123,3 +123,28 @@ h3 {font-size: var(--fs-h3);}
     font-weight: var(--fw-bold);
     margin-bottom: 2em
 }
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.nav {
+    position: fixed;
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform cubic-bezier (.5, 0, .5, 1);
+}

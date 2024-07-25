@@ -138,7 +138,7 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    margin-top: .5em
+    margin-top: .5em;
 }
 
 /*navigation menu*/
@@ -378,15 +378,16 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__item {
+    object-fit: cover;
     background: var(--clr-accent);
     overflow: hidden;
 }
 
-.portfolio__img {
+.portfolio__item {
     transition:
     transform 750ms cubic-bezier(.5, 0, .5, 1)
     opacity 250ms linear;
@@ -397,8 +398,8 @@ header {
     z-index: 2;
 }
 
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
+.portfolio__item:hover,
+.portfolio__item:focus,.portfolio__img {
     transform: scale(1.2);
     opacity: .5;
 }

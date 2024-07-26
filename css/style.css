@@ -220,9 +220,15 @@ nav { display: none; }
     margin: 0 auto;
 }
 
+.about-me__img {
+    box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
     }
+
+
 }
